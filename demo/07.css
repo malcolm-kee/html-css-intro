@@ -1,0 +1,13 @@
+p {
+  color: red;
+  width: 600px;
+  border: 1px solid blue;
+}
+
+#intro {
+  text-align: center;
+}
+
+.important-text {
+  text-decoration: underline;
+}
