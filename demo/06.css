@@ -3,3 +3,7 @@ p {
   width: 600px;
   border: 1px solid blue;
 }
+
+h1 {
+  color: purple;
+}
