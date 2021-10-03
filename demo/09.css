@@ -1,0 +1,34 @@
+p {
+  color: red;
+  width: 600px;
+  border: 1px solid blue;
+}
+
+h1,
+h2 {
+  color: purple;
+}
+
+#intro {
+  text-align: center;
+}
+
+.important-text {
+  text-decoration: underline;
+  padding: 8px;
+  margin: 32px;
+  border: 2px solid green;
+  width: 300px;
+}
+
+.section {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #d1d5db;
+  padding: 8px;
+}
+
+.coffee {
+  font-weight: bold;
+  color: #5f2b10;
+}

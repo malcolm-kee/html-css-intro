@@ -1,0 +1,24 @@
+strong {
+  color: blue;
+}
+
+h1 {
+  color: darkblue;
+  border: 2px solid teal;
+  width: 300px;
+  margin: 28px;
+  padding: 6px;
+}
+
+#details {
+  color: maroon;
+}
+
+.emphasis {
+  font-weight: bold;
+}
+
+.details {
+  background-color: #f4ede7;
+  padding: 4px;
+}
