@@ -1,0 +1,245 @@
+/* CSS Reset Start */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS Reset Ends */
+
+:root {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+
+  --yellow-50: #fffbeb;
+  --yellow-100: #fef3c7;
+  --yellow-200: #fde68a;
+  --yellow-300: #fcd34d;
+  --yellow-400: #fbbf24;
+  --yellow-500: #f59e0b;
+  --yellow-600: #d97706;
+  --yellow-700: #b45309;
+  --yellow-800: #92400e;
+  --yellow-900: #78350f;
+
+  --width-content: 1400px;
+
+  background-color: var(--yellow-300);
+}
+
+body {
+  background-color: white;
+}
+
+.header {
+  padding: 8px 16px;
+  background-color: var(--yellow-300);
+  position: sticky;
+  z-index: 50;
+  top: 0;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--width-content);
+  margin: 0 auto;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+@media (min-width: 700px) {
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.header-links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 8px;
+}
+
+.header-links a {
+  text-decoration: none;
+  padding: 8px;
+  color: inherit;
+  transition: 200ms ease-in-out;
+}
+
+@media (min-width: 700px) {
+  .header-links a {
+    padding: 16px;
+  }
+}
+
+.header-links a:hover {
+  background-color: var(--yellow-400);
+}
+
+.footer {
+  color: var(--gray-400);
+  background-color: var(--gray-50);
+}
+
+.footer-content {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+  max-width: var(--width-content);
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.footer-link {
+  color: var(--gray-400);
+}
+
+@media (min-width: 700px) {
+  .footer-content {
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
