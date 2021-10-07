@@ -3,3 +3,21 @@
   background-color: #991b1b;
   padding: 128px 32px;
 }
+
+.features-title {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 48px;
+}
+
+.feature-item-title {
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 600;
+  margin-top: 32px;
+}
+
+.feature-item-desc {
+  line-height: 1.375;
+  color: #f3f4f6;
+}
