@@ -183,15 +183,8 @@ body {
 }
 
 .icon {
-  width: 30px;
-  height: 30px;
-}
-
-@media (min-width: 700px) {
-  .icon {
-    width: 50px;
-    height: 50px;
-  }
+  width: 50px;
+  height: 50px;
 }
 
 .header-links {
@@ -203,15 +196,9 @@ body {
 
 .header-links a {
   text-decoration: none;
-  padding: 8px;
+  padding: 16px;
   color: inherit;
   transition: 200ms ease-in-out;
-}
-
-@media (min-width: 700px) {
-  .header-links a {
-    padding: 16px;
-  }
 }
 
 .header-links a:hover {
