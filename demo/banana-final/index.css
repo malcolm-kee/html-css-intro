@@ -127,7 +127,7 @@
   }
 }
 
-@media (min-width: 1240px) {
+@media (min-width: 1100px) {
   .feature-list {
     flex-flow: row;
   }
