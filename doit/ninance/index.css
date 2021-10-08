@@ -1,3 +1,34 @@
 .hero-image {
   width: 100%;
 }
+
+.feature-section {
+  padding: 48px 16px;
+}
+
+.feature-section-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 800;
+}
+
+.feature-item {
+  margin-top: 40px;
+  padding: 10px 16px 16px;
+  background-color: #f3f4f6;
+}
+
+.feature-item-title {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.feature-item-desc {
+  font-size: 16px;
+  line-height: 24px;
+  color: #6b7280;
+}
