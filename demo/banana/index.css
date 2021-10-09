@@ -62,8 +62,19 @@ a:hover {
 .partner-section li {
   font-size: 32px;
   color: #4b5563;
+  display: inline;
+  margin-right: 16px;
+  margin-bottom: 32px;
 }
 
 .cta-section {
   padding: 128px 32px;
+}
+
+.cta-section a {
+  font-size: 48px;
+  line-height: 1;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: block;
 }
