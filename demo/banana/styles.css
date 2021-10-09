@@ -133,3 +133,12 @@ html {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
 }
+
+.icon {
+  position: relative;
+}
+
+.icon:hover {
+  left: 2px;
+  top: 2px;
+}
