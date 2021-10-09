@@ -38,3 +38,12 @@
   line-height: 32px;
   color: #f59e0b;
 }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
