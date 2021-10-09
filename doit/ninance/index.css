@@ -1,3 +1,26 @@
+.hero-content {
+  padding: 64px 16px 80px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.hero-content .primary {
+  color: #4f46e5;
+  display: block;
+}
+
+.hero-content p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #6b7280;
+}
+
 .hero-image {
   width: 100%;
 }
