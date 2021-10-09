@@ -62,7 +62,7 @@ a:hover {
 .partner-section li {
   font-size: 32px;
   color: #4b5563;
-  display: inline;
+  display: inline-block;
   margin-right: 16px;
   margin-bottom: 32px;
 }
