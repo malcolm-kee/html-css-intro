@@ -6,7 +6,7 @@
   padding: 48px 16px;
 }
 
-.feature-section-title {
+.feature-section h2 {
   font-size: 30px;
   line-height: 36px;
   font-weight: 800;
@@ -18,7 +18,7 @@
   background-color: #f3f4f6;
 }
 
-.feature-item-title {
+.feature-item h3 {
   margin-top: 10px;
   margin-bottom: 8px;
   font-size: 18px;
@@ -27,7 +27,7 @@
   color: #111827;
 }
 
-.feature-item-desc {
+.feature-item p {
   font-size: 16px;
   line-height: 24px;
   color: #6b7280;
