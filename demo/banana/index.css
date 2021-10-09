@@ -8,20 +8,20 @@
   width: 100%;
 }
 
-.features-title {
+.features h2 {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 48px;
 }
 
-.feature-item-title {
+.features h3 {
   font-size: 20px;
   margin-bottom: 12px;
   font-weight: 500;
   margin-top: 32px;
 }
 
-.feature-item-desc {
+.features p {
   font-size: 16px;
   line-height: 22px;
   color: #f3f4f6;
