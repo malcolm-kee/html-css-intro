@@ -47,3 +47,23 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.partner-section {
+  padding: 120px 32px;
+}
+
+.partner-section p {
+  color: #9ca3af;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.partner-section li {
+  font-size: 32px;
+  color: #4b5563;
+}
+
+.cta-section {
+  padding: 128px 32px;
+}
