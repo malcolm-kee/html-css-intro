@@ -74,3 +74,26 @@
   line-height: 24px;
   color: #6b7280;
 }
+
+@media (min-width: 1000px) {
+  .feature-section {
+    display: flex;
+    gap: 5px;
+  }
+
+  .feature-section h2 {
+    min-width: 250px;
+  }
+
+  .feature-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .feature-item {
+    margin: 0;
+    width: 40%;
+  }
+}
