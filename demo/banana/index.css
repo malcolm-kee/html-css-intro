@@ -100,3 +100,9 @@ a:hover {
     font-size: inherit;
   }
 }
+
+@media (min-width: 700px) {
+  .partner-section li {
+    font-size: 48px;
+  }
+}
