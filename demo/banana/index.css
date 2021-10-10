@@ -101,6 +101,17 @@ a:hover {
   }
 }
 
+.partner-section p {
+  text-align: center;
+}
+
+.partner-section ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
 @media (min-width: 700px) {
   .partner-section li {
     font-size: 48px;
