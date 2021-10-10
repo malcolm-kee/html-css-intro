@@ -8,6 +8,13 @@
   width: 100%;
 }
 
+@media (min-width: 1000px) {
+  .feature-item-list {
+    display: flex;
+    gap: 16px;
+  }
+}
+
 .features h2 {
   font-size: 30px;
   font-weight: 700;
