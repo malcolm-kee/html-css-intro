@@ -94,3 +94,11 @@
 .pricing-item-features > li {
   margin-bottom: 24px;
 }
+
+.go-top {
+  position: fixed;
+  right: 8px;
+  bottom: 8px;
+  background: white;
+  text-decoration: none;
+}
