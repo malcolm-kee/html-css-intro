@@ -142,3 +142,8 @@ html {
   left: 2px;
   top: 2px;
 }
+
+.header {
+  background-color: #fcd34d;
+  padding: 8px 16px;
+}
