@@ -78,3 +78,18 @@ a:hover {
   margin-bottom: 8px;
   display: block;
 }
+
+@media (min-width: 700px) {
+  #contact ~ p {
+    font-size: 48px;
+    line-height: 1;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .cta-section a {
+    display: inline;
+    margin: 0;
+    font-size: inherit;
+  }
+}
